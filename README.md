@@ -1,0 +1,6 @@
+# MedicalOffice_C_Linux
+In English:
+Using C in Linux, I implemented a program that simulates the activity in a medical office: A given number of patient threads will be created that will wait for the release of resources representing doctors (there may be structures and the consultation consists of blocking that structure and displaying the doctor id). Clients will occupy the doctor resource for a random period not exceeding a given limit. Each patient will be generated at a random interval for a given period of time. After the consultation, the patient will display the waiting time and the consultation time.
+
+In Romanian:
+Să se implementeze un program care simulează activitatea dintr-un cabinet medical: vor fi create un număr dat de thread-uri pacienți care vor aștepta pentru eliberarea unor resurse reprezentând doctorii (pot fi niște structuri iar consultația să consiste blocarea acelei structuri și afișarea id-ului doctorului). Clienții vor ocupa resursa doctor pentru o perioadă random care să nu depășească o limită dată. Fiecare pacient va fi generat la un interval aleator pentru o perioadă data de timp. După consultație, pacientul își va afișa timpul de așteptare și timpul consultației.
